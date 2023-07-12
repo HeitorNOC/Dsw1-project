@@ -1,28 +1,32 @@
 :root{
-  /* text colors */
-  --text-gray : #808291;
-  --text-white: #f8f9fa;
-  --text-light: #f6f6f6;
-  --text-dark : #1A3260;
-  --text-dark2 : #1A3760D4;
-  --text-red : #ff4d6d;
-  --box-shadow-default: 0px 0px 50px 0px rgb(0 0 0 / 10%);
-  --bg-blue: rgb(249, 243, 255);
-  --bg-red: rgb(254, 247, 252);
-  --bg-yellow:rgb(255, 255, 246);
-  --bg-purple: rgb(246, 255, 255);
+  
+  --yellow-dark: #C47F17;
+  --yellow: #DBAC2C;
+  --yellow-light: #F1E9C9;
+  --purple-dark: #4B2995;
+  --purple: #8047F8;
+  --purple-light: #EBE5F9;
 
-  /* font familiy */
-  --font-family : "Roboto", sans-serif;
+  --base-title: #272221;
+  --base-subtitle: #403937;
+  --base-text: #574F4D;
+  --base-label: #8D8686;
+  --base-hover: #D7D5D5;
+  --base-button: #E6E5E5;
+  --base-input: #EDEDED;
+  --base-card: #F3F2F2;
 
-  /* gradient colors */
-  --bg-gradient-default : linear-gradient(to right, #ff512f, #dd2476); 
-  --bg-gradient-indigo: linear-gradient(to right, #8e2de2, #4a00e0);
-  --bg-gradient-peach: linear-gradient(to right, #fff7f3, #fff7f3);
+  --background: #FAFAFA;
+  --white: #FFFFFF;
+
+  --font-roboto : "Roboto", sans-serif;
+  --font-baloo2: "Baloo 2", sans-serif
+
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
