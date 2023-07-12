@@ -31,10 +31,6 @@
   
 }
 
-body {
-  padding: 32px 160px;
-}
-
 /* -------------------- NAVBAR -------------------- */
 
 nav {
@@ -45,6 +41,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-family: var(--font-roboto);
+  padding: 62px 250px;
 }
 
 nav > .nav-header {
@@ -66,7 +63,7 @@ nav > .nav-links {
   display: flex;
   float: right;
   font-size: 18px;
-  align-items: center;
+  
   gap: 25px;
 }
 
@@ -74,7 +71,7 @@ nav > .nav-links > a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #000;
+  color: var(--base-title);
   cursor: pointer;
 }
 
@@ -131,3 +128,75 @@ nav > #nav-check {
 }
 
 /* -------------------- NAVBAR -------------------- */
+
+/* -------------------- MAIN -------------------- */
+
+#inicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 250px;
+  margin-top: 140px;
+
+  font-family: var(--font-roboto);
+}
+
+.inicioLeft {
+  margin-right: 350px;
+}
+
+.leftUpper h2 {
+  font-family: var(--font-baloo2);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+  color: var(--base-title);
+  margin-bottom: 20px;
+}
+
+.leftUpper p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  color: var(--base-subtitle);
+  margin-bottom: 70px;
+}
+
+.leftDown {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  
+}
+.description {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 28px;
+}
+
+.description img {
+  padding: 8px;
+  border-radius: 999px;
+}
+
+.cartMini {
+  background-color: var(--yellow-dark);
+}
+
+.box {
+  background-color: var(--base-text);
+}
+
+.bomb {
+  background-color: var(--yellow);
+}
+
+.coffe {
+  background-color: var(--purple);
+}
+
+/* -------------------- MAIN -------------------- */
+
+
