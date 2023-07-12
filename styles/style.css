@@ -207,6 +207,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   margin-top: 200px;
+  font-family: var(--font-roboto);
 }
 
 footer p {
