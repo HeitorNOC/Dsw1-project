@@ -210,13 +210,15 @@ nav>#nav-check {
 /* -------------------- FOOTER -------------------- */
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   padding: 0 250px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 200px;
   padding-bottom: 20px;
-
   font-family: var(--font-roboto);
 }
 
@@ -396,3 +398,120 @@ footer p {
 }
 
 /* -------------------- CAFES -------------------- */
+
+/* -------------------- SOBRE NOS -------------------- */
+
+#sobrenos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  font-family: var(--font-roboto);
+  padding: 0 250px;
+}
+
+.sobreMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.sobreContainer {
+  margin-right: 100px;
+}
+
+.sobreContainer p {
+  margin: 15px 0;
+  font-size: 1rem;
+  color: var(--base-subtitle);
+}
+
+.sobreContainer li {
+  margin: 15px 0;
+  font-size: 1rem;
+  color: var(--base-subtitle);
+}
+
+.sobreContainer  ul {
+  list-style: none;
+}
+
+.sobreContainer  h3 {
+  margin: 20px 0;
+}
+
+
+/* -------------------- SOBRE NOS -------------------- */
+
+/* -------------------- CONTATO -------------------- */
+
+.sobreForm {
+  width: 50%;
+  
+  
+}
+
+.form {
+  
+  max-width: 32rem;
+  font-size: 1.125rem;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 100%;
+}
+
+.form label {
+  color: var(--base-title);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.form textarea {
+  min-height: 13rem;
+  resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: var(--yellow);
+  box-shadow: 0 0 0 3px var(--yellow);;
+}
+
+.form button {
+  display: block;
+  padding: 1rem;
+  background: var(--yellow-dark);
+  color: #fff;
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+   transition: 0.2s; 
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background: var(--yellow);
+}
+
+/* -------------------- CONTATO -------------------- */
+
