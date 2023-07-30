@@ -445,6 +445,29 @@ footer p {
 
 /* -------------------- CONTATO -------------------- */
 
+#contato {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  font-family: var(--font-roboto);
+  padding: 0 250px;
+}
+
+#contato p {
+  margin-top: 20px;
+  font-size: 1.175rem;
+  font-weight: bold;
+  color: var(--base-title);
+}
+
+.contatoContainer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 .sobreForm {
   width: 50%;
   
