@@ -538,3 +538,35 @@ footer p {
 
 /* -------------------- CONTATO -------------------- */
 
+/* -------------------- ContatoSuccess -------------------- */
+
+#contatoSuccess {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+  font-family: var(--font-roboto);
+  padding: 0 250px;
+}
+
+.text h2 {
+  font-size: 32px;
+}
+
+#contatoSuccess img {
+  width: 400px;
+  
+}
+
+.text p {
+  font-size: 1.25rem;
+  color: var(--base-text);
+  margin: 10px 0;
+}
+
+.text img {
+  margin-top: 50px;
+}
+
+/* -------------------- ContatoSuccess -------------------- */
+
