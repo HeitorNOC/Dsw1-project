@@ -318,6 +318,18 @@ footer p {
   padding: 0 250px;
 }
 
+#cafes footer {
+  padding: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 200px;
+  padding-bottom: 20px;
+
+  font-family: var(--font-roboto);
+}
+
 .cafesContainer {
   margin-top: 54px;
   display: grid;
@@ -538,7 +550,7 @@ footer p {
 
 /* -------------------- CONTATO -------------------- */
 
-/* -------------------- ContatoSuccess -------------------- */
+/* -------------------- CONTATO SUCCESS -------------------- */
 
 #contatoSuccess {
   display: flex;
@@ -568,5 +580,139 @@ footer p {
   margin-top: 50px;
 }
 
-/* -------------------- ContatoSuccess -------------------- */
+/* -------------------- CONTATO SUCCESS -------------------- */
+
+/* -------------------- CARRINHO -------------------- */
+
+#carrinho {
+  display: flex;
+  flex-direction: column;  
+  margin-top: 32px;
+  font-family: var(--font-roboto);
+  padding: 0 250px;
+}
+.cafeItemCart button {
+  border: none;
+  cursor: pointer;
+}
+
+.cafeItemCart button img {
+  width: 32px;
+}
+
+.carrinhoImg img {
+  width: 700px;
+}
+
+.carrinhoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#listaCafes {
+  margin-top: 30px;
+  overflow: auto;
+  max-height: 500px;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.total p {
+  font-size: 18px;
+}
+
+.finalizar button {
+  border: none;
+  background-color: var(--yellow-dark);
+  padding: 10px;
+  color: var(--white);
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.listaCafes {
+  max-width: 320px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--white);
+  background-color: #000;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.listaCafes p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+button.noselect {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+  background: #e62222;
+ }
+ 
+ button.noselect, button span {
+  transition: 200ms;
+ }
+ 
+ button.noselect .text {
+  transform: translateX(35px);
+  color: white;
+  font-weight: bold;
+ }
+ 
+ button.noselect .icon {
+  position: absolute;
+  border-left: 1px solid #c41b1b;
+  transform: translateX(110px);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ button.noselect svg {
+  width: 15px;
+  fill: #eee;
+ }
+ 
+ button.noselect:hover {
+  background: #ff3636;
+ }
+ 
+ button:hover .text {
+  color: transparent;
+ }
+ 
+ button.noselect:hover .icon {
+  width: 150px;
+  border-left: none;
+  transform: translateX(0);
+ }
+ 
+ button.noselect:focus {
+  outline: none;
+ }
+ 
+ button.noselect:active .icon svg {
+  transform: scale(0.8);
+ }
+
+/* -------------------- CARRINHO -------------------- */
 
