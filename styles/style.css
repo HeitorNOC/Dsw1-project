@@ -628,7 +628,7 @@ footer p {
 
 .finalizar button {
   border: none;
-  background-color: var(--yellow-dark);
+  background-color: green;
   padding: 10px;
   color: var(--white);
   font-size: 18px;
@@ -715,4 +715,31 @@ button.noselect {
  }
 
 /* -------------------- CARRINHO -------------------- */
+
+/* -------------------- SUCESSO -------------------- */
+
+#sucesso {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  font-family: var(--font-roboto);
+  padding: 0 250px;
+
+  margin-top: 100px;
+}
+
+.img2 {
+  width: 500px;
+}
+
+.leftSucesso h2 {
+  margin-bottom: 20px;
+}
+
+.img1 {
+  width: 300px;
+  margin-top: 40px;
+}
+
+/* -------------------- SUCESSO -------------------- */
 
