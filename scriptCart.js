@@ -82,4 +82,14 @@ function verificarCarrinho() {
     }
 }
 
+function abrirWhatsApp() {
+    const numeroTelefone = '+5581996213652'; 
+    const mensagem = 'Olá, estou interessado em comprar café!';
+
+    const mensagemEncoded = encodeURIComponent(mensagem);
+    const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${mensagemEncoded}`;
+
+    window.open(linkWhatsApp, '_blank');
+  }
+
 mostrarCafesNoCarrinho();
